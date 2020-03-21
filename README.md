@@ -9,8 +9,8 @@ You have a new client opportunity!  A prominent blogger has hired you to build t
 
 4. On the "Add new" page, when the user clicks "Add new pothole," the app should prompt them for the name of the new pothole. Once the user enters a new pothole name, the app should display “Thanks, I'll add that to the list!” and then list the name below. See mockup below (Pothole-AddNew-Msg3.jpg). Users should be able to enter multiple pothole names, which all display in order.
 
-NOTE: To display these messages, you will need an element in your HTML which has a unique ID (for example, id='display'). You can replace the contents of that HTML element from JavaScript by using `document.getElementById('display').innerHTML = "<p class='blurb'>this is some message to the user</p>"`;
-(See w3schools for more. Note also that you can put HTML into your JavaScript strings.)
+    NOTE: To display these messages, you will need an element in your HTML which has a unique ID (for example, id='display'). You can replace the contents of that HTML element from JavaScript by using `document.getElementById('display').innerHTML = "<p class='blurb'>this is some message to the user</p>"`;
+    (See w3schools for more. Note also that you can put HTML into your JavaScript strings.)
 
 5. BONUS: Add a password feature to the Add New page, so that only users who have logged in can enter the name of a new pothole.  These are the requirements:
 
