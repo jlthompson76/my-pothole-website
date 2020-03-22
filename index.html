@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel= "stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>My Pothole Website</title>
 </head>
 <body>
     <div id="navbar">
-        <a href="index.html">Home</a>
+        <a id="home" href="index.html">Home</a>
         <a href="add-new.html">Add new</a>
         <a href="map.html">Map</a>
     </div>
@@ -19,22 +20,34 @@
         <div class="text">
             <p>I designed this website to document some of my favorite potholes around Boston. Below you can see my three favorite potholes. To see a map of all the potholes, click "Map" in the navigation bar. To add your own favorite potholes, click "Add New."</p>
         </div>
-        <div class="potholes">
-            <div class="pothole1">
-                <h2>String of pearls</h2>
-                <img src="images/pothole1.jpg" alt="Pothole #1 String of Pearls" />
+        <div class="potholes-container">
+            <div class="pothole">
+                <div class="pothole-name">
+                    <h2>String of pearls</h2>
+                </div>
+                <div class="pothole-photo1">
+                    <img src="images/pothole1.jpg" alt="Pothole #1 String of Pearls" />
+                </div>
             </div>
-            <div class="pothole2">
-                <h2>Fractal pothole</h2>
-                <img src="images/pothole2.jpg" alt="Pothole #2 Fractal pothole" />
+            <div class="pothole">
+                <div class="pothole-name">
+                    <h2>Fractal pothole</h2>
+                </div>
+                <div class="pothole-photo2">
+                    <img src="images/pothole2.jpg" alt="Pothole #2 Fractal pothole" />
+                </div>
             </div>
-            <div class="pothole3">
-                <h2>Salt and sand</h2>
-                <img src="images/pothole3.jpg" alt="Pothole #3 Salt and sand" />
+            <div class="pothole">
+                <div class="pothole-name">
+                    <h2>Salt and sand</h2>
+                </div>
+                <div class="pothole-photo3">
+                    <img src="images/pothole3.jpg" alt="Pothole #3 Salt and sand" />
+                </div>
             </div>
         </div>
     </div>
-    
+
     <script src="script.js"></script>
 
 </body>

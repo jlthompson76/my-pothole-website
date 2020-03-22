@@ -21,3 +21,65 @@ Homepage:
 container width: 60%
 three pothole images - centered in 3 columns, should be same size
 pothole titles - centered over each image
+*/
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: brown;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar a {
+    background-color: brown;
+    color: white;
+    border:2px solid goldenrod;
+    padding: 5px;
+}
+
+#home {
+    display: flex;
+    align-self: start;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20% 5%;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+}
+
+.potholes-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.pothole {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 40%;
+    text-align: center;
+}
+
+img {
+    width: 95%;
+    height: 95%;
+
+}
+
+.log-in p {
+    margin-top: 0;
+}
+
+   
