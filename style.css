@@ -31,20 +31,24 @@ body {
 #navbar {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #navbar a {
     background-color: brown;
     color: white;
     border:2px solid goldenrod;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
-#home {
+/* #home {
     display: flex;
     align-self: start;
-}
+} */
 
+i {
+    padding: 0 5px 0 0;
+}
 .container {
     display: flex;
     flex-direction: column;
