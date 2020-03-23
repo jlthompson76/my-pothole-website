@@ -9,23 +9,25 @@
     <title>Add a New Pothole | My Pothole Website</title>
 </head>
 <body>
-    <div id="navbar">
-        <a id="home" href="index.html"><i class="fas fa-home"></i>Home</a>
-        <a href="add-new.html"><i class="fas fa-plus-circle"></i>Add new</a>
-        <a href="map.html"><i class="fas fa-map-signs"></i>Map</a>
-    </div>
+    <nav id="navbar">
+        <a class="home"href="index.html"><i class="fas fa-home"></i>Home</a>
+        <ul class="navbar-links">
+            <li class="navbar-item"><a href="add-new.html"><i class="fas fa-plus-circle"></i>Add new</a></li>
+            <li class="navbar-item"><a href="map.html"><i class="fas fa-map-signs"></i>Map</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="header">
             <h1>Add a new pothole</h1>
         </div>
         <div class="log-in">
-            <p>To add a new pothole, you must <button id="log-in">Log in</button> first.</p>
+            <p>To add a new pothole, you must <button id="log-in" onclick="logIn()">Log in</button> first.</p>
         </div>
         <div id="log-in-message">
             <p></p>
         </div>
         <div class="add-new">
-            <button id="add-new">Add new pothole</button>
+            <button id="add-new" onclick="addNewPothole()">Add new pothole</button>
         </div>
         <div id="add-new-message">
             <p></p>

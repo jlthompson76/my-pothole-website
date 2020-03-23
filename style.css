@@ -30,8 +30,14 @@ body {
 
 #navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
 }
 
 #navbar a {
@@ -41,14 +47,10 @@ body {
     padding: 5px 10px;
 }
 
-/* #home {
-    display: flex;
-    align-self: start;
-} */
-
 i {
     padding: 0 5px 0 0;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -83,7 +85,12 @@ img {
 }
 
 .log-in p {
-    margin-top: 0;
+    margin: 0;
 }
 
+#log-in-message, #add-new-message {
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
    
