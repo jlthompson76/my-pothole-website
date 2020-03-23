@@ -26,17 +26,17 @@ function addNewPothole() {
     message = `Please enter the name of the new pothole that you'd like to add:`;
     potholeName = prompt(message);
     document.getElementById('add-new-message').innerHTML = "<p>Thanks! We will add that to the list.</p>" + potholeName;
+    addAnother = prompt(`Would you like to add another new pothole? Please enter yes or no.`);
+    addAnother = addAnother.toLowerCase();
+    if (addAnother === "yes") {
+        anotherPotholeName = prompt(message);
+        document.getElementById('add-more-potholes').innerHTML = "<p>" + anotherPotholeName;
+    } else {
+        alert(`Thank you for visiting My Pothole Website! Have a great day and visit again soon!`);
+    }
 }
 
 /*
-addAnother = prompt(`Would you like to add another new pothole? Please enter yes or no.`);
-    addAnother = addAnother.toLowerCase();
-    while (addAnother === "yes") {
-        anotherPotholeName = prompt(message);
-        document.getElementById('more-pothole-names').innerHTML = anotherPotholeName;
-        anotherPotholeName++; 
-    } alert(`Thank you for visiting My Pothole Website! Have a great day and visit again soon!`);
-
 function checkLogin() {
     if (password === "theMaster") {
         addNewPothole();
