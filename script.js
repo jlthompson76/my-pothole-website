@@ -1,4 +1,11 @@
+// BONUS: Add a password feature to the Add New page, so that only users who have logged in can enter the name of a new pothole.  These are the requirements:
+
+// * If the user tries to add a new pothole name to the list without logging in, the app should display “Sorry, you’re not logged in."
+
+// * If the user enters the correct password, then clicks "Add new pothole," the app should prompt them for the name of the new pothole as above.
+
 // If the user enters the correct password, then clicks "Add new pothole," the app should prompt them for the name of the new pothole as above.
+
 // BONUS: Adjust your code so that if a user enters the wrong password on the "Add New" page, the app keeps prompting the user to enter the correct password (until they hit the Cancel button).
 
 let username, password, potholeName;
